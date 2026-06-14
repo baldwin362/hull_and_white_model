@@ -1,0 +1,7 @@
+Exp 1 : Validation. Reproduire la Table I. MC vs B-S, ρ = 0. Ça prouve que ton code marche. Une table dans le rapport, c'est fait.
+Exp 2 : Biais en fonction de S/X pour différents ξ. C'est la Figure 3 du papier. Biais (%) = (prix MC - prix BS) / prix BS. ρ = 0, σ₀ = 15%, ξ = 1, 2, 3. Une figure.
+Exp 3 : Biais en fonction de S/X pour différents ρ. C'est la Table II du papier, mais tracée comme un graphe au lieu d'un tableau. ρ = -1, -0.5, 0, 0.5, 1. σ₀ = 15%, ξ = 1, T = 180j. Simulation conjointe S et V. Une figure.
+Exp 4 : Smile de volatilité pour différents ρ. C'est le livrable du sujet. Tu prends les mêmes prix MC que l'exp 3, tu inverses B-S par dichotomie, tu traces σ_imp en fonction de K/S₀. Une figure avec 5 courbes (une par ρ).
+Exp 5 : Smile de volatilité pour différents ξ. Même chose mais tu varies ξ = 0.5, 1, 2 avec ρ = 0 fixé. Une figure.
+Exp 6 : Smile de volatilité pour différents T. Tu varies T = 90, 180, 270 jours, ρ = 0, ξ = 1. Montre l'effet maturité. Une figure.
+Exp 7 : Table III. Reproduire le tableau de vols implicites du papier. C'est la synthèse quantitative des exp 4, 5, 6 en un seul tableau.
